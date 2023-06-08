@@ -1,0 +1,512 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #181a23; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+nav ul li a:hover{
+    color: #f5634b;
+    
+}
+nav .gymfit > a{
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    
+}
+nav .gymfit > a span{
+    font-size: 36px;
+    color:  #f5634b;
+    padding: 0;
+}
+nav .gymfit_right > i{
+    font-size: 28px;
+    color: #f5634b;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    
+}
+
+
+nav .gymfit_right > a{
+    font-size: 28px;
+    color:  #f5634b;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    nav{
+     
+        padding: 10px 0px;
+       
+        /* color: transparent; */
+    }
+    nav .gymfit_right > i{
+      display: none;
+    }
+    
+    
+    nav .gymfit_right > a{
+       display: none;
+    }
+    nav .gymfit > a{
+        display: none;
+        
+    }
+    nav .gymfit > a span{
+        display: none;
+    }
+    nav ul li{
+    
+        padding: 0px;
+    
+        
+    }
+    nav ul li a{
+     
+        font-size: 9px;
+       
+    }
+
+}
+
+
+
+
+ /* --------------------------------------------------------------------------------------- one */
+ .pageone{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+ .page_bottom{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../photo/bg-image-2-1.jpg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)  */
+ }
+ .page_bottom h1{
+    font-size: 56px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+ }
+ .page_bottom .pagehomeall {
+    display: flex;
+    padding-left: 44%;
+    padding-top: 160px;
+    padding-bottom: 20px;
+ }
+ .pagehome {
+    width: 100px;
+    height: 30px;
+    border-right: 2px solid #fff;
+    padding: 5px 5px;
+    
+ }
+ .pagehome a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+ }
+  .pageabout{
+    width: 150px;
+    height: 30px;
+    padding: 5px 5px;
+    
+ }
+.pageabout a{
+    text-decoration: none;
+    color: #f5634b;
+    font-size: 24px;
+}
+ /* --------------------------------------------------------------------------------------- one mediascreen */
+ @media screen and (min-width:320px) and (max-width:480px) {
+   
+    .page_bottom h1{
+        font-size: 36px;
+      
+     }
+     .page_bottom .pagehomeall {
+        padding-left: 14%;
+        padding-top: 80px;
+       
+     }
+     .pagehome a {
+        font-size: 20px;
+     }
+     .pageabout a{
+        
+        font-size: 20px;
+    }
+    
+
+}
+
+ /* --------------------------------------------------------------------------------------- two */
+
+ .boxarrow{
+    height: 600px;
+    width: 400px;
+    /* border: 2px solid green; */
+    /* background-color: aqua; */
+    margin: 20px;
+    position: relative;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.2);
+    
+} 
+.all{
+     display: flex; 
+     flex-wrap: wrap; 
+    /* background-color: rgb(217, 255, 0); */
+    width: 100%;
+    height: 170vh;
+    /* align-content: space-around; */
+     padding-left: 150px; 
+    margin-top: 100px;
+}
+
+.boxarrow h2{
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+
+.boxarrow h1 a{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding:10px 30px;
+    color: #232323;
+    letter-spacing: .5px;
+}
+.boxarrow p{
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    padding:10px 30px;
+}
+.boxarrow h3 a{
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #f5634b;
+    padding:10px 60px;
+    text-decoration: none;
+}
+
+.boxarrow h3 a::before{
+    width: 20px;
+    height: 2px;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    top:545px;
+    left: 6%;
+}
+.boxarrow h1 a:hover{
+    color: #f5634b;
+}
+ /* --------------------------------------------------------------------------------------- two mediascreen */
+ @media screen and (min-width:320px) and (max-width:480px) {
+    .all{
+   
+       /* align-content: space-around; */
+        padding-left: 0px;
+        height: auto; 
+
+   } 
+   
+   .boxarrow{
+    height: 100%;
+    width: 100%;
+   
+    
+} 
+.boxarrow img{
+    width: 100%;
+
+}
+.boxarrow h1 a{
+    font-size: 18px;
+    line-height: 20px;
+   
+    padding:0px 30px;
+   
+}
+.boxarrow h2{
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 10px 30px;
+}
+.boxarrow h3 a::before{
+   
+    top: 525px;
+    left: 10%;
+}
+}
+/* --------------------------------------------------------------------------------------- button */
+.button{
+    width: 500px;
+    height: 50px;
+    /* background-color: #fe9418; */
+    /* border: 2px solid black; */
+    display: flex;
+    margin-left: 40%;
+    text-align: center;
+    margin-top: 50px;
+}
+.button div:nth-child(1){
+    width: 100px;
+    height: 50px;
+    /* background-color: #18fe93; */
+    /* border: 2px solid black; */
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.2);
+}
+.button div:nth-child(2){
+    width: 50px;
+    height: 50px;
+    background-color: #f5634b;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 15px;
+    /* box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75); */
+}
+.button div:nth-child(3){
+    width: 50px;
+    height: 50px;
+    /* background-color: #dbfe18; */
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 15px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.2);
+}
+.button div:nth-child(4){
+    width: 50px;
+    height: 50px;
+    /* background-color: #dbfe18; */
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 15px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.2);
+}
+.button div:nth-child(5){
+    width: 75px;
+    height: 50px;
+    /* background-color: #dbfe18; */
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 15px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.2);
+}
+.button div:nth-child(1):hover{
+    color: #f5634b;
+}
+.button div:nth-child(3):hover{
+    color: #f5634b;
+}
+.button div:nth-child(4):hover{
+    color: #f5634b;
+}
+.button div:nth-child(5):hover{
+    color: #f5634b;
+}
+/* --------------------------------------------------------------------------------------- button mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    
+    .button{
+        width: 300px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: auto;
+    }
+    .button div:nth-child(1){
+        width: 80px;
+        height: 50px;
+    }
+    .button div:nth-child(5){
+        width: 65px;
+        height: 50px;
+       
+    }
+}
+/* --------------------------------------------------------------------------------------- nine */
+footer{
+    margin-top: 50px;
+    background-color: #181a23;
+    height: 70vh;
+    padding: 80px;
+}
+.nineall{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+
+}
+.nineone, .ninetwo , .ninethree , .ninefour{
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    /* border: 2px solid #fff; */
+}
+.nineone h1{
+    font-size: 38px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+.nineone p ,.ninetwo p , .ninefour h1 ,.ninetwo h2,.ninefour p{
+    /* padding:20px 200px 20px 0px; */
+    color: #fff;
+    opacity: .8;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ninetwo h1 , .ninethree h1 , .ninefour h1{
+    font-size: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+.ninethree ul  li span{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+
+}
+.ninetwo p  a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+.ninethree ul  li  a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1;
+    
+}
+.ninethree ul  li{
+    text-decoration: none;
+    list-style: none;
+}
+.ninefour p  {
+    /* padding:20px 200px 20px 0px; */
+    color: #fff;
+    opacity: .8;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+.ninefive{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:0px 30px;
+}
+.ninefive h3{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 10px;
+}
+.ninefive h3 a {
+    font-size: 20px;
+    color: #fe9418;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.ninefive .ninetheme i{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+/* --------------------------------------------------------------------------------------- nine mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    footer{
+        margin-top: 20px;
+        background-color: #181a23;
+        height: auto;
+        padding: 10px;
+    }
+    .nineall{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    .ninefive{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+         height: 120px;
+     margin-top: 0px;
+       
+     }
+ 
+
+}
+
+
+

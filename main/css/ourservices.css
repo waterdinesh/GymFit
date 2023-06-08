@@ -1,0 +1,603 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #181a23; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+nav ul li a:hover{
+    color: #f5634b;
+    
+}
+nav .gymfit > a{
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    
+}
+nav .gymfit > a span{
+    font-size: 36px;
+    color:  #f5634b;
+    padding: 0;
+}
+nav .gymfit_right > i{
+    font-size: 28px;
+    color: #f5634b;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    
+}
+
+
+nav .gymfit_right > a{
+    font-size: 28px;
+    color:  #f5634b;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    nav{
+        width: 100%;
+           padding: 10px 0px;
+          /* padding: 0; */
+          margin-bottom: 20px!important;
+           /* color: transparent; */
+       }
+    nav .gymfit_right > i{
+      display: none;
+    }
+    
+    
+    nav .gymfit_right > a{
+       display: none;
+    }
+    nav .gymfit > a{
+        display: none;
+        
+    }
+    nav .gymfit > a span{
+        display: none;
+    }
+    nav ul li{
+    
+        padding: 0px;
+    
+        
+    }
+    nav ul li a{
+     
+        font-size: 9px;
+       
+    }
+
+}
+
+
+
+ /* --------------------------------------------------------------------------------------- one */
+ .pageone{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+ .page_bottom{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../photo/bg-image-2-1.jpg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)  */
+ }
+ .page_bottom h1{
+    font-size: 56px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+ }
+ .page_bottom .pagehomeall {
+    display: flex;
+    padding-left: 43%;
+    padding-top: 160px;
+    padding-bottom: 20px;
+ }
+ .pagehome {
+    width: 100px;
+    height: 30px;
+    border-right: 2px solid #fff;
+    padding: 5px 5px;
+    
+ }
+ .pagehome a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+ }
+  .pageabout{
+    width: 150px;
+    height: 30px;
+    padding: 5px 5px;
+    
+ }
+.pageabout a{
+    text-decoration: none;
+    color: #f5634b;
+    font-size: 24px;
+}
+
+ /* --------------------------------------------------------------------------------------- one mediascreen */
+ @media screen and (min-width:320px) and (max-width:480px) {
+   
+    .page_bottom h1{
+        font-size: 36px;
+      
+     }
+     .page_bottom .pagehomeall {
+        padding-left: 14%;
+        padding-top: 80px;
+        
+     }
+     .pagehome a {
+        font-size: 20px;
+     }
+     .pageabout a{
+        
+        font-size: 20px;
+    }
+    
+    
+
+}
+
+
+
+/* --------------------------------------------------------------------------------------- two */
+
+
+.fivetop{
+    text-align: center;
+    padding: 80px;
+
+}
+ .fivetop h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #232323;
+    letter-spacing: .5px;
+    position: relative;
+    /* padding: 10px; */
+}
+.fivetop h1::before{
+    width: 45px;
+    height: 4px;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    top:-20px;
+    left: 48%;
+}
+.fivetop p{
+    color: #666;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 150vh;
+    padding-left: 150px;
+    /* margin-left: 150px; */
+    /* margin-right: 200px; */
+}
+.one{
+    /* background-color: rgb(157, 255, 0); */
+    height:310px;
+    width: 600px;
+    display: flex;
+    /* padding: 100px; */
+    /* border: 2px solid black; */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.two{
+    text-align: left;
+    padding: 20px;
+}
+.two h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.two h1{
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #232323;
+    letter-spacing: .5px;
+    padding: 5px;
+
+}
+.two p{
+    padding: 5px;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* --------------------------------------------------------------------------------------- two mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    .fivetop{
+        text-align: center;
+        padding-top: auto;
+    
+    }
+     .fivetop h1{
+        font-size: 28px;
+       
+    }
+    .fivetop h1::before{
+       
+        left: 38%;
+    }
+    .fivetop p{
+        color: #666;
+        font-family: "Montserrat", sans-serif;
+        padding-top: 20px;
+        margin-left: 10px;
+        margin-right: 0;
+        font-size: 16px;
+        
+    }
+    .all{
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+        /* margin-left: 150px; */
+        /* margin-right: 200px; */
+    }
+    .one{
+        display: flex;
+        flex-wrap: wrap;
+        height:auto;
+        width: 100%;
+        display: flex;
+        /* padding: 100px; */
+        /* border: 2px solid black; */
+        margin-left: 0px;
+        margin-top: auto;
+     }
+     .all .one img{
+        width: 100%;
+     }
+
+}
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------- three */
+
+  /* .seven{
+    background-color: aqua; 
+}   */
+.seventop{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../photo/bg-cta.jpg);
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seventop .natone{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .5px;
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px ;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.seventop .nattwo{
+    width: 900px;
+    height: 300px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.seventop .nattwo h1{
+    font-size: 38px;
+    line-height: 38px;
+    color: #f5634b;
+    font-family: 'themify';
+    padding: 10px;
+    
+}
+.seventop .nattwo h2{
+    font-size: 28px;
+    line-height: 38px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    
+}
+.seventop .nattwo p{
+    color: rgba(255,255,255,.5)!important;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 10px 50px;
+    
+}
+.seventop .nattwo h3{
+    color: #fff;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 20px ;
+}
+.seventop .nattwo h4{
+    color: rgba(255,255,255,.5)!important;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+      
+}
+.seventop .natone::before{
+    width: 45px;
+    height: 4px;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    top:80px;
+    left: 48%;
+}
+/* --------------------------------------------------------------------------------------- three mediascreen */
+ @media screen and (min-width:320px) and (max-width:480px) {
+    
+    .seventop{
+        width: 100%;
+        height: auto;
+        margin-top: auto;
+    }
+    .seventop .natone h1{
+        font-size: 30px;
+        padding-top: 20px ;
+        
+      
+    }
+    .seventop .nattwo h1{
+        font-size: 25px;
+        line-height: 25px;
+        padding: 0px;
+        
+    }
+    .seventop .nattwo{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+    }
+    .seventop .nattwo h1{
+        font-size: 20px;
+        line-height: 20px;
+        color: #f5634b;
+        font-family: 'themify';
+        padding: 0px;
+        
+    }
+    .seventop .nattwo h2{
+        font-size: 22px;
+        line-height: 22px;
+        
+        
+    }
+    .seventop .nattwo h3{
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 10px ;
+    }
+    .seventop .nattwo h4{
+      
+        font-size: 18px;
+        line-height: 18px;
+          
+    }
+   
+
+} 
+
+/* --------------------------------------------------------------------------------------- four */
+footer{
+    /* margin-top: 50px; */
+    background-color: #181a23;
+    height: 70vh;
+    padding: 80px;
+}
+.nineall{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+
+}
+.nineone, .ninetwo , .ninethree , .ninefour{
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    /* border: 2px solid #fff; */
+}
+.nineone h1{
+    font-size: 38px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+.nineone p ,.ninetwo p , .ninefour h1 ,.ninetwo h2,.ninefour p{
+    /* padding:20px 200px 20px 0px; */
+    color: #fff;
+    opacity: .8;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ninetwo h1 , .ninethree h1 , .ninefour h1{
+    font-size: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+.ninethree ul  li span{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+
+}
+.ninetwo p  a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+.ninethree ul  li  a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1;
+    
+}
+.ninethree ul  li{
+    text-decoration: none;
+    list-style: none;
+}
+.ninefour p  {
+    /* padding:20px 200px 20px 0px; */
+    color: #fff;
+    opacity: .8;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+.ninefive{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:0px 30px;
+}
+.ninefive h3{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 10px;
+}
+.ninefive h3 a {
+    font-size: 20px;
+    color: #fe9418;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.ninefive .ninetheme i{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+/* --------------------------------------------------------------------------------------- nine mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    footer{
+        margin-top: 0px;
+        background-color: #181a23;
+        height: auto;
+        padding: 10px;
+    }
+    .nineall{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    .ninefive{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+         height: 120px;
+         margin-top: 0px;
+       
+     }
+ 
+
+}
+
+

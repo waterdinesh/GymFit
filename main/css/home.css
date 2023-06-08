@@ -1,0 +1,1224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #181a23; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    position: fixed ;
+    width: 100%;
+    z-index: 10;
+    /* color: transparent; */
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+nav ul li a:hover{
+    color: #f5634b;
+    
+}
+nav .gymfit > a{
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    
+}
+nav .gymfit > a span{
+    font-size: 36px;
+    color:  #f5634b;
+    padding: 0;
+}
+nav .gymfit_right > i{
+    font-size: 28px;
+    color: #f5634b;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    
+}
+
+
+nav .gymfit_right > a{
+    font-size: 28px;
+    color:  #f5634b;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    nav{
+     width: 100%;
+        padding: 10px 0px;
+       /* padding: 0; */
+       margin-bottom: 20px!important;
+        /* color: transparent; */
+    }
+    nav .gymfit_right > i{
+      display: none;
+    }
+    
+    
+    nav .gymfit_right > a{
+       display: none;
+    }
+    nav .gymfit > a{
+        display: none;
+        
+    }
+    nav .gymfit > a span{
+        display: none;
+    }
+    nav ul li{
+    
+        padding: 0px;
+    
+        
+    }
+    nav ul li a{
+     
+        font-size: 9px;
+       
+    }
+
+}
+
+ /* --------------------------------------------------------------------------------------- one */
+.home_pageone{
+    width: 300px;
+    height: 50px;
+    border: 3px solid #fff;
+    padding: 3px 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+.home_pageone h1{
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+}
+ 
+.one{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../photo/bg-7.jpg);
+    /* background-color: #181a23; */
+    /* opacity: 0.4; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 150px 150px;
+}
+.one .home_pagetwo h1{
+    font-size: 95px;
+    line-height: 95px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+     padding: 25px 0px ; 
+     margin-top: 10px;
+     text-align: start;
+     width: 80%;
+}
+.one .home_pagetwo h1 span{
+    font-size: 95px;
+    line-height: 95px;
+    color: #f5634b;
+    /* padding: 18px; */
+}
+.one .home_pagetwo button{
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 0;
+    /* font-weight: 700; */
+    transition: all 0.5s ease;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    margin-top: 48px;
+    /* color: #fff; */
+}
+.one .home_pagetwo button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+.one .home_pagetwo button a span{
+    font-size: 14px;
+    padding: 0px 10px;
+}
+.one .home_pagetwo button:hover{
+    background: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    transform: translatey(-10px );
+}
+
+
+ /* --------------------------------------------------------------------------------------- one mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    
+    .home_pageone{
+        
+        width: 225px;
+        height: 30px;
+        /* height: auto; */
+        border: 1px solid #fff;
+        /* padding: 3px 15px; */
+        text-align: center;
+        /* margin-top: 10px; */
+         margin-left: 20px;
+        padding-top: 10px !important; 
+        
+    }
+
+    .home_pageone h1{
+        letter-spacing: 5px;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Barlow Condensed", sans-serif;
+        text-transform: uppercase;
+    
+    
+        
+    }
+    .one{
+      
+        /* height: 120vh; */
+        color: rgba(0, 0, 0, 0.6);
+        /* padding: 150px 150px; */
+        width: 100%;
+        height: auto;
+    
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        padding-right: 0;
+    
+    }
+    .home_pagetwo{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .home_pagetwo h1 span{
+        font-size: 20px !important;
+        padding: 0 !important; 
+        line-height: 0 !important;
+        margin: 0 !important;
+    }
+    .one .home_pagetwo h1{
+        font-size: 20px;
+        margin-top: 20px !important;
+        line-height: 30px !important;
+        padding-top: 0px;
+        padding-left: 20px !important;
+        
+    }
+    .one .home_pagetwo button{
+        margin-top: 28px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        /* color: #fff; */
+    }
+  
+}
+ /* --------------------------------------------------------------------------------------- two */
+ /* two threebox */
+.two{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    
+}
+.two .threebox{
+   padding: 20px;
+   width: 400px;
+   height: 250px;
+   /* border: 2px solid #fff; */
+   border-radius: 0px;
+   /* display: flex; */
+   margin: 20px;
+   align-items: center;
+   text-align: center;
+   background-color: #fff;
+   font-family: "Montserrat", sans-serif;
+    /* top: 50%;  */
+   /* left: 50%; */
+   transform: translate(0%, -50%); 
+   position: relative; 
+}
+.two .threebox h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #181a23;
+}
+.two .threebox p{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.two .threebox a{
+    color:#fe9418;
+    text-decoration: none;
+}
+.two .threebox .num{
+    opacity: 0.1;
+    font-size: 130px;
+    display: block;
+    line-height: 120px;
+    position: absolute;
+    top: 10px;
+    text-align: center!important;
+    transform: translate(70%, 0%); 
+}
+.threebox::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    /* margin-left: 500px;
+    margin-top: 40px; */
+    /* top: 0px; */
+    z-index: -11;
+    transform: scaleY(0);
+    transition: transform 2s;
+    transform-origin: top;
+    border-radius: 0px;
+
+}
+.threebox:hover::after{
+    /* transform: scaleX(1); */
+    transform: scaleY(1);
+    
+    /* height: 500px; */
+}
+
+.threebox:hover span{
+    color: #fff !important;
+    /* font-size: 100px; */
+}
+.threebox:hover h1{
+    color: #fff !important;
+    /* font-size: 100px; */
+}
+.threebox:hover p{
+    color: #fff !important;
+    /* font-size: 100px; */
+}
+.threebox:hover a{
+    color: #fff !important;
+    /* font-size: 100px; */
+}
+
+ /* --------------------------------------------------------------------------------------- two mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    .two{
+        height: auto;
+        flex-direction: column;
+    }
+    .two .threebox{
+        padding: 20px;
+        width: 100%;
+        transform: translate(0%, 0%); 
+        position: relative; 
+        /* display: flex; */
+        margin: 0px;
+       
+     }
+     .two .threebox .num{
+        transform: translate(50%, 0%); 
+        }
+}
+ /* --------------------------------------------------------------------------------------- three */
+
+.three{
+    display: flex;
+    justify-content: left;
+    /* background-color: aqua; */
+    height: 60vh;
+}
+.three .bg{
+    padding-left: 150px;
+}
+.three .we h1{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0px 30px;
+}
+.three .we .p{
+    padding: 20px 0px;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+}
+.three .we p{
+    padding: 0px 30px;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+}
+.three .we span{
+    color: #f5634b;
+}
+.three .we button{
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 200px;
+    /* font-weight: 700; */
+    transition: all 0.5s ease;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    margin-top: 10px;
+    margin-left: 30px;
+    /* color: #fff; */
+}
+
+.three .we button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.three .we button:hover{
+    background: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    transform: translatey(-10px );
+}
+ /* --------------------------------------------------------------------------------------- three mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+   .bg{
+    width: 100%;
+    height: auto;
+   }
+    .bg img{
+       width: 100%;
+       margin: 0;
+       padding: 0;
+   }
+   .three .bg{
+    padding-left: 0;
+   }
+   .we{
+    width: 100%;
+    height: auto;
+   }
+   .three{
+     width: 100%;
+     height: auto;
+    flex-direction: column;
+    padding: 30px 0;
+
+   }
+.three .we h1{
+    font-size: 24px;
+    
+}
+}
+
+
+/* --------------------------------------------------------------------------------------- four */
+
+.four {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../photo/slide2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four .inside{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) */
+}
+.four .inside h1{
+    font-size: 40px;
+    /* line-height: 66px; */
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 30px 0px;
+}
+.four .inside h1 span{
+    color: #f5634b;
+}
+.four .inside h3{
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.four .inside button{
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 200px;
+    /* font-weight: 700; */
+    transition: all 0.5s ease;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    margin-top: 10px;
+    margin-left: 30px;
+    /* color: #fff; */
+}
+
+.four .inside button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.four .inside button:hover{
+    background: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    transform: translatey(-10px );
+
+}
+/* --------------------------------------------------------------------------------------- four mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    .four {
+       
+        margin-top: auto;
+        width: 100%;
+    }
+    .four .inside h1{
+        font-size: 20px;
+        padding:  0px;
+    }
+    .four .inside h3{
+        letter-spacing: 1px;
+        font-size: 12px;
+       
+    }
+    .four .inside{
+        color: #fff;
+        font-size: 15px;
+      
+    }
+    .four .inside button{
+       
+        width: 150px;
+       
+        margin-left: 0px;
+        /* color: #fff; */
+    }
+
+}
+/* --------------------------------------------------------------------------------------- five */
+
+/* .five{
+    background-color: aqua; 
+} */
+ .fivetop{
+    text-align: center;
+    padding: 80px;
+
+}
+ .fivetop h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #232323;
+    letter-spacing: .5px;
+    position: relative;
+    /* padding: 10px; */
+}
+.fivetop h1::before{
+    width: 45px;
+    height: 4px;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    top:-20px;
+    left: 48%;
+}
+.fivetop p{
+    color: #666;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    
+}
+
+.allgymsix{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 150px;
+    position: relative;
+    
+}
+ .gymequitement{
+    width: 400px;
+    height: 250px;
+    /* border: 2px solid black; */
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  position: relative;
+  z-index: 1;
+    
+}
+.allgymsix .gymequitement span{
+    font-size: 56px;
+    color: #f5634b !important;
+
+}
+.allgymsix .gymequitement h1{
+    padding-top: 30px;
+}
+.allgymsix .gymequitement span{
+    padding-top: 30px;
+}
+.allgymsix .gymequitement p{
+    padding-top: 10px;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    /* -webkit-font-smoothing: antialiased; */
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.gymequitement::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    /* margin-left: 500px;
+    margin-top: 40px; */
+    top: 0px;
+    z-index: -1;
+    transform: scaleY(0);
+    transition: transform 2s;
+    transform-origin: top;
+    /* border-radius: 10px; */
+
+}
+
+.gymequitement:hover::after{
+    /* transform: scaleX(1); */
+    transform: scaleY(1);
+    
+    /* height: 500px; */
+}
+.gymequitement:hover span{
+    color: #fff !important;
+    /* font-size: 100px; */
+}
+.gymequitement:hover h1{
+    color: #fff !important;
+    /* font-size: 100px; */
+}
+.gymequitement:hover p{
+    color: #fff !important;
+    /* font-size: 100px; */
+}
+
+/* --------------------------------------------------------------------------------------- five mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .fivetop{
+        text-align: center;
+        padding-top: auto;
+    
+    }
+     .fivetop h1{
+        font-size: 28px;
+       
+    }
+    .fivetop h1::before{
+       
+        left: 38%;
+    }
+    .allgymsix{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 50px;
+        position: relative;
+        
+    }
+    .gymequitement{
+     
+        /* border: 2px solid black; */
+       
+        padding: 0px;
+      position: relative;
+      z-index: 1;
+      
+        
+    }
+    .allgymsix .gymequitement span{
+        font-size: 36px;
+        color: #f5634b !important;
+    
+    }
+    .allgymsix .gymequitement h1{
+        padding-top: 10px;
+    }
+    .allgymsix .gymequitement span{
+        padding-top: 10px;
+    }
+   
+   
+
+}
+
+
+/* --------------------------------------------------------------------------------------- six */
+
+ /* .six{
+    background-color: aqua; 
+}  */
+
+
+.sixtop{
+    text-align: center;
+    padding: 80px;
+
+}
+ .sixtop h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #232323;
+    letter-spacing: .5px;
+    position: relative;
+    /* padding: 10px; */
+}
+.sixtop h1::before{
+    width: 45px;
+    height: 4px;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    top:-20px;
+    left: 48%;
+}
+.sixtop p{
+    color: #666;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    
+}
+.sixallimage{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .sixallimage div{
+    width: 405px;
+    height: 300px;
+    border: none;
+    background-size:100%;
+} 
+.sixallimage div img{
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------------------------------------------------------------- six mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    .sixtop h1::before{
+      
+        left: 38%;
+    }
+    .sixtop h1{
+        font-size: 28px;
+        
+    }
+    .sixallimage div{
+        width: 430px;
+        height: 300px;
+        border: none;
+        background-size:100%;
+    } 
+   
+
+}
+/* --------------------------------------------------------------------------------------- seven */
+
+  /* .seven{
+    background-color: aqua; 
+}   */
+.seventop{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../photo/bg-cta.jpg);
+    height: 220vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seventop .natone{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .5px;
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px ;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.seventop .nattwo{
+    width: 900px;
+    height: 300px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.seventop .nattwo h1{
+    font-size: 38px;
+    line-height: 38px;
+    color: #f5634b;
+    font-family: 'themify';
+    padding: 10px;
+    
+}
+.seventop .nattwo h2{
+    font-size: 28px;
+    line-height: 38px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    
+}
+.seventop .nattwo p{
+    color: rgba(255,255,255,.5)!important;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 10px 50px;
+    
+}
+.seventop .nattwo h3{
+    color: #fff;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 20px ;
+}
+.seventop .nattwo h4{
+    color: rgba(255,255,255,.5)!important;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+      
+}
+.seventop .natone::before{
+    width: 45px;
+    height: 4px;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    top:80px;
+    left: 48%;
+}
+
+/* --------------------------------------------------------------------------------------- seven mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .seventop{
+        
+        height: auto;
+       
+    }
+    .seventop .natone h1{
+        font-size: 30px;
+        padding-top: 20px ;
+        
+      
+    }
+    .seventop .nattwo h1{
+        font-size: 25px;
+        line-height: 25px;
+        padding: 0px;
+        
+    }
+    .seventop .nattwo{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+    }
+    .seventop .nattwo h1{
+        font-size: 20px;
+        line-height: 20px;
+        color: #f5634b;
+        font-family: 'themify';
+        padding: 0px;
+        
+    }
+    .seventop .nattwo h2{
+        font-size: 22px;
+        line-height: 22px;
+        
+        
+    }
+    .seventop .nattwo h3{
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 10px ;
+    }
+    .seventop .nattwo h4{
+      
+        font-size: 18px;
+        line-height: 18px;
+          
+    }
+   
+
+}
+/* --------------------------------------------------------------------------------------- eight */
+  /* .eight{
+    background-color: aqua; 
+    height: 90vh; 
+}    */
+.eightone{
+    text-align: center;
+    padding-top: 150px;
+    position: relative;
+
+}
+.eightone ::before{
+    width: 45px;
+    height: 4px;
+    content: '';
+    background-image: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    position: absolute;
+    top:130px;
+    left: 48%;
+}
+.eightone h5{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color:#232323;
+    font-size: 38px;
+    
+}
+.eightone p{
+    color: #666;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.eighttop{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+    /* position: relative; */
+    justify-content: space-around;
+    
+}
+ .eighttwo{
+    width: 280px;
+    height: 400px;
+    /* border: 2px solid #666; */
+    text-align: left;
+    align-items: center;
+    /* padding: 20px; */
+    margin: 30px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.2);
+    
+    /* position: relative; */
+
+    
+}
+.eighttwo img{
+    width: 100%;
+    height: 80%;
+}
+.eighttwo h1{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #232323;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+.eighttwo h1 >a{
+    text-decoration: none;
+    color: #232323;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+.eighttwo h2{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    /* font-weight: 700; */
+    color: #666;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+.eight button{
+    /* text-align: center;
+    align-content: center;
+    justify-content: center; */
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 300px;
+    /* font-weight: 700; */
+    transition: all 0.5s ease;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    margin-top: 30px;
+    margin-left: 650px;
+    /* color: #fff; */
+}
+
+.eight button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.eight button:hover{
+    background: linear-gradient(90deg, #fe9418 0%,#f5634b 100%);
+    transform: translatey(-10px );
+
+}
+
+/* --------------------------------------------------------------------------------------- eight mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    .eightone{
+        
+        padding-top: auto;
+        /* position: relative; */
+    
+    }
+    .eightone ::before{
+        
+        top:80px;
+        left: 42%;
+    }
+    .eightone h5{
+       
+        font-size: 28px;
+        
+    }
+    .eightone p{
+       
+        font-size: 16px;
+        padding: 10px;
+    }
+    .eighttop{
+        padding: 0px;
+        /* position: relative; */
+        width: 100%;
+        
+    }
+    .eight button{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+    
+    }
+
+}
+
+/* --------------------------------------------------------------------------------------- nine */
+footer{
+    margin-top: 50px;
+    background-color: #181a23;
+    height: 70vh;
+    padding: 80px;
+}
+.nineall{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+
+}
+.nineone, .ninetwo , .ninethree , .ninefour{
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    /* border: 2px solid #fff; */
+}
+.nineone h1{
+    font-size: 38px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+.nineone p ,.ninetwo p , .ninefour h1 ,.ninetwo h2,.ninefour p{
+    /* padding:20px 200px 20px 0px; */
+    color: #fff;
+    opacity: .8;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ninetwo h1 , .ninethree h1 , .ninefour h1{
+    font-size: 30px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+.ninethree ul  li span{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+
+}
+.ninetwo p  a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+.ninethree ul  li  a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1;
+    
+}
+.ninethree ul  li{
+    text-decoration: none;
+    list-style: none;
+}
+.ninefour p  {
+    /* padding:20px 200px 20px 0px; */
+    color: #fff;
+    opacity: .8;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+.ninefive{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:0px 30px;
+}
+.ninefive h3{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 10px;
+}
+.ninefive h3 a {
+    font-size: 20px;
+    color: #fe9418;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.ninefive .ninetheme i{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+/* --------------------------------------------------------------------------------------- nine mediascreen */
+@media screen and (min-width:320px) and (max-width:480px) {
+    footer{
+        margin-top: 50px;
+        background-color: #181a23;
+        height: auto;
+        padding: 10px;
+    }
+    .nineall{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    .ninefive{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+        height: 120px;
+    
+      
+    }
+   
+ 
+
+}
+
+
